@@ -1,1 +1,17 @@
 .cursor/
+
+# Local environment and secrets
+.venv/
+.env
+
+# Runtime data: temporary sessions, opt-in saved sessions, model weights, caches
+data/
+models/
+.cache/
+
+# Python tooling
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

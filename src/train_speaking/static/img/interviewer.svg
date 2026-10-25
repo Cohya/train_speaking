@@ -1,0 +1,79 @@
+<svg id="ts-avatar-svg" viewBox="0 0 320 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Virtual interviewer">
+  <defs>
+    <radialGradient id="ts-bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#eef3f9"/>
+      <stop offset="100%" stop-color="#cfd9e6"/>
+    </radialGradient>
+    <linearGradient id="ts-skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0c6a2"/>
+      <stop offset="100%" stop-color="#dfa985"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="360" rx="24" fill="url(#ts-bg)"/>
+
+  <g id="ts-body">
+    <path d="M40 360 C48 300 96 282 160 282 C224 282 272 300 280 360 Z" fill="#2f3e5c"/>
+    <path d="M128 284 L160 330 L192 284 Z" fill="#f4f4f4"/>
+    <path d="M160 300 L152 316 L160 352 L168 316 Z" fill="#7a2e3b"/>
+    <path d="M128 284 L148 318 L120 300 Z" fill="#26324b"/>
+    <path d="M192 284 L172 318 L200 300 Z" fill="#26324b"/>
+  </g>
+
+  <g id="ts-head">
+    <rect x="138" y="236" width="44" height="54" rx="18" fill="#d9a07c"/>
+    <ellipse cx="88" cy="182" rx="12" ry="20" fill="#dfa985"/>
+    <ellipse cx="232" cy="182" rx="12" ry="20" fill="#dfa985"/>
+    <ellipse cx="160" cy="176" rx="72" ry="88" fill="url(#ts-skin)"/>
+    <path d="M86 168 C80 96 120 72 162 72 C210 72 244 100 236 170 C230 136 214 116 186 110 C160 124 120 120 100 128 C92 140 88 152 86 168 Z" fill="#3b2a20"/>
+
+    <path id="ts-brow-l" d="M116 146 Q132 138 148 145" stroke="#3b2a20" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path id="ts-brow-r" d="M172 145 Q188 138 204 146" stroke="#3b2a20" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+    <g id="ts-eyes">
+      <ellipse cx="132" cy="168" rx="13" ry="9" fill="#ffffff"/>
+      <ellipse cx="188" cy="168" rx="13" ry="9" fill="#ffffff"/>
+      <circle class="ts-iris" cx="132" cy="168" r="6" fill="#4a3424"/>
+      <circle class="ts-iris" cx="188" cy="168" r="6" fill="#4a3424"/>
+      <circle cx="134" cy="166" r="1.8" fill="#ffffff"/>
+      <circle cx="190" cy="166" r="1.8" fill="#ffffff"/>
+      <g id="ts-eyelids">
+        <ellipse cx="132" cy="168" rx="14" ry="10" fill="#e9b996"/>
+        <ellipse cx="188" cy="168" rx="14" ry="10" fill="#e9b996"/>
+      </g>
+    </g>
+
+    <path d="M160 176 Q154 200 150 206 Q160 212 170 206" stroke="#b9805f" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <g id="ts-mouth">
+      <g class="ts-mouth-shape" data-viseme="rest">
+        <path d="M140 230 Q160 241 180 230" stroke="#8c3f3a" stroke-width="5" fill="none" stroke-linecap="round"/>
+      </g>
+      <g class="ts-mouth-shape" data-viseme="closed">
+        <path d="M142 233 Q160 236 178 233" stroke="#8c3f3a" stroke-width="6" fill="none" stroke-linecap="round"/>
+      </g>
+      <g class="ts-mouth-shape" data-viseme="small">
+        <ellipse cx="160" cy="233" rx="12" ry="4.5" fill="#5a1f22" stroke="#8c3f3a" stroke-width="3"/>
+      </g>
+      <g class="ts-mouth-shape" data-viseme="mid">
+        <ellipse cx="160" cy="234" rx="15" ry="7.5" fill="#5a1f22" stroke="#8c3f3a" stroke-width="3"/>
+        <rect x="149" y="228" width="22" height="4" rx="2" fill="#f7f3ef"/>
+      </g>
+      <g class="ts-mouth-shape" data-viseme="open">
+        <ellipse cx="160" cy="236" rx="16" ry="12" fill="#5a1f22" stroke="#8c3f3a" stroke-width="3"/>
+        <rect x="148" y="226" width="24" height="5" rx="2" fill="#f7f3ef"/>
+        <ellipse cx="160" cy="243" rx="9" ry="4" fill="#c0575a"/>
+      </g>
+      <g class="ts-mouth-shape" data-viseme="wide">
+        <ellipse cx="160" cy="233" rx="20" ry="5.5" fill="#5a1f22" stroke="#8c3f3a" stroke-width="3"/>
+        <rect x="146" y="229" width="28" height="3.5" rx="1.5" fill="#f7f3ef"/>
+      </g>
+      <g class="ts-mouth-shape" data-viseme="round">
+        <ellipse cx="160" cy="235" rx="8.5" ry="9" fill="#5a1f22" stroke="#8c3f3a" stroke-width="3.5"/>
+      </g>
+      <g class="ts-mouth-shape" data-viseme="teeth">
+        <ellipse cx="160" cy="234" rx="15" ry="6" fill="#5a1f22" stroke="#8c3f3a" stroke-width="3"/>
+        <rect x="148" y="229" width="24" height="5.5" rx="2" fill="#f7f3ef"/>
+      </g>
+    </g>
+  </g>
+</svg>
